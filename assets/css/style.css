@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #0062FF;
+}
+
+/* Universal */
+h1{
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+
+.font-1{
+    font-family: 'Poppins', sans-serif;
+}
+.font-2{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* FORM SIGN_UP */
+.form-box{
+    width: 360px;
+    height: 515px;
+    background-color: white;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+.form-box h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sign-up .form-box{
+    margin: auto;
+    margin-top: 44px;
+}
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sign-up{
+    margin-top: 180px;
+    margin-bottom: 240px;
+}
+
+.form-control{
+    background-color: #FAFAFB;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 14px 17px ;
+    width: 320px;
+    color: #92929D;
+    font-size: 14px;
+    border-radius: 15px;  
+}
+
+.form-box h5{
+    margin-left: 20%;
+    
+}
+
+
+
+.line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn1{
+    
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 38px;
+    font-size: 12px;
+    font-weight:500;
+    border-radius: 10px;
+    margin-left: 220px;
+}
+
+.google h5{
+    margin-left: 172px;
+    color: #92929D;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.btn-google{
+    border: 1px solid #F1F1F5;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #92929D;
+    padding: 10px 79px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.already{
+    margin-top: 20px;
+    padding: 17px 73px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.already{
+    font-size: 12px;
+    font-weight: 400;
+    color: #0062FF;
+}
+
+
+.nav-item input{
+    background: none;
+    border: none;
+    width: 40px;
+    font-size: 14px;
+}
+
+.nav-item button{
+    border-radius: 10px;
+}
+
+.plus img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.nav-item .search img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+
+.nav-item .search{
+    background-color: #F1F1F5;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+
+.nav-item button{
+    font-size: 14px;
+}
+
+.sign-up2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.shape{
+    position: absolute;
+}
+
+.top-tittle{
+    position: absolute;
+}
+
+
+.form-sign-up2{
+    width: 560px;
+    height: 597px;
+    margin: auto;
+    margin-top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 20px;
+}
+
+.form-grid{
+    width: 240px;
+    border: 1px solid #E2E2EA;
+    background-color: white;
+    border-radius: 10px;
+    color:#E2E2EA;
+}
+
+.row .sign-up3{
+    
+    background: #FFFFFF;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 50px;
+    margin-top: 200px;
+    width: 1170px;
+    height: 610px;
+    margin-bottom: 200px;
+}
+
+.image-signup{
+    background-color: #FAFAFB;
+    width: 565px;
+    height: 100%;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center;
+    
+}
+
+.image-signup h4{
+    margin-bottom: 71px;
+    
+    font-weight: 600;
+}
+
+.logo-sign{
+    margin-left: -15px;
+    margin-top: 70px;
+
+}
+
+.image-signup button{
+    margin-top: 72px;
+    background-color: white;
+    color: #0062FF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    width: 120px;
+    height: 48px;
+   margin-left: 209px;
+}
+
+
+
+.image-signup .ilus-sign{
+    margin: 53px 75px;
+}
+
+.form-signup3 h2{
+    font-size: 28px;
+    margin: 60px;
+    
+}
+
+
+.form-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: #92929D;
+
+    
+}
+
+.form-3 input{
+    border: none;
+    width: 420px;
+        font-size: 16px;
+}
+
+.isi-form{
+    border-bottom: 1px solid #E2E2EA;
+}
+.form-3 img{
+    margin-left: auto;
+    margin-bottom: 3px;
+    
+}
+
+.form-signup3 button{
+    margin-left: 355px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+
+
+/* 4 */
+
+.background{
+    background: url("/assets/img/Bg.svg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin-top: -70px;
+    border-bottom-right-radius: 60px;
+
+}
+
+.site-tittle{
+    text-align: center;
+    font-weight: normal;
+    padding-top: 170px;
+   
+}
+
+.site-tittle h2{
+    
+    line-height: 76px;
+    /* or 136% */
+    letter-spacing: 0.233333px;
+}
+
+
+.form-box4{
+    width: 560px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 200px;
+    text-align: center;
+
+}
+
+
+.form-box4 h6{
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #B5B5BE;
+}
+
+.form-box4 h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    margin-top: 20px;
+
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.custom-control small{
+    margin-right: 40px;
+}
+.custom-control{
+    margin-right: 0px;
+}
+
+
+.form-box4 form{
+    margin-top: 48px;
+
+}
+
+.form-date{
+    width: 90px;
+}
+
+.isi-form4{
+    margin-top: 45px;
+    border-bottom: 1px solid #E2E2EA;
+    margin-left: 18px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 10px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+
+color: #B5B5BE;
+}
+
+.isi-form4 input{
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.1px;
+    
+}
+
+.isi-form4 input::-webkit-input-placeholder { /* Edge */
+    color: #B5B5BE;
+    font-size: 14px;
+  }
+.form-box4 form{
+    margin-left: 30px;
+}
+
+.full-form input{
+    width: 470px;
+}
+
+.half-form input{
+    width: 215px;
+}
+
+.form-box4 button{
+    margin-top: 40px;
+    margin-left: 320px;
+    font-size: 14px;
+    padding: 10px 2px;
+}
+
+
+
+.form-box4 p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #92929D;
+    margin-top: 30px;
+}
+
+.email input{
+    width: 384px;
+}
+
+.password input{
+    width: 185px;
+}
+
+
+@media screen and (max-width: 375px){
+    .image-signup .ilus-sign{
+        width: 260px;
+        margin: auto;
+        margin-top: 28px;
+    }
+
+    .image-signup{
+        width: 91%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 20px;
+        border: 1px solid #F1F1F5;
+
+        
+    }
+    .image-signup h4{
+        margin-top: 26px;
+        font-size: 14px;
+        color: #696974;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        
+     }
+     .row .sign-up3{
+         box-shadow: none;
+         width: auto;
+         height: 784px;
+         margin-top: 40px;
+         
+         
+     }
+    .logo-sign{
+        width: 88px;
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .image-signup button{
+        margin-left: 45px;
+        margin-top: 45px;
+    }
+    .form-3 input{
+        width: 90%;
+    }
+    .isi-form{
+        width: 100%;
+    }
+
+    .image-signup{
+        margin-left: 15px;
+    }
+    .container{
+        margin: 15px;
+
+    }
+    .form-3{
+        margin-left: 30px;
+    }
+    .form-signup3 h2{
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+
+    .form-signup3 button{
+        margin-left: 55%;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .isi-form{
+        width: 90%;
+    }
+    .form-signup3 button{
+        margin-left: 45%;
+    }
+}
+
+/* 4 */
+
+@media screen and (max-width: 375px){
+    .site-tittle h1{
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        margin-top: 240px;
+    }
+
+    .site-tittle small{
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        text-align: center;
+        letter-spacing: 0.1px;
+    }
+    .background {
+        margin-top: -350px;
+    }
+    .form-box4{
+        margin-top: 50px;
+        width: 320px;
+        height: 955px;
+        margin: auto;
+    }
+
+    .form-box4 h4{
+        font-size: 18px;
+    }
+    .background .containerr{
+        margin-left: 30px;
+    }
+    .half-form{
+        width: 145px;
+    }
+    .half-form input{
+        width: 109px;
+        font-size: 14px;
+    }
+    .isi-form4{
+        margin-left: 8px;
+        margin-top: 28px;
+    }
+    .form-box4{
+        margin-left: -20px;
+    }
+    .full-form input{
+        width: 255px;
+    }
+    .row-password{
+        flex-direction: column;
+    }
+    .password input{
+        width: 180px;
+    }
+    .row-password .half-form{
+        width: 260px;
+    }
+    .email input{
+        width: 185px;
+    }
+
+    .form-box4 button{
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .form-box4{
+        width: 290px;
+
+    }
+    .isi-form4{
+        margin-left: 10px;
+    }
+    .password input{
+        width: 190px;
+    }
+    .email input{
+        width: 170px;
+    }
+    .isi-form4 img{
+        width: 15px;
+    }
+    .half-form{
+        width: 125px ;
+    }
+    .half-form input{
+        width: 80px;
+    }
+    .row-password .isi-form4{
+        width: 250px;
+    }
+    .password input{
+        width: 170px;
+    }
+    .student input{
+        width: 230px;
+    }
+  
+}

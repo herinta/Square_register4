@@ -447,7 +447,7 @@ color: #B5B5BE;
 }
 
 .email input{
-    width: 384px;
+    width: 409px;
 }
 
 .password input{
@@ -577,7 +577,7 @@ color: #B5B5BE;
         font-size: 14px;
     }
     .isi-form4{
-        margin-left: 8px;
+        margin-left: 5px;
         margin-top: 28px;
     }
     .form-box4{
@@ -590,10 +590,10 @@ color: #B5B5BE;
         flex-direction: column;
     }
     .password input{
-        width: 180px;
+        width: 210px;
     }
     .row-password .half-form{
-        width: 260px;
+        width: 275px;
     }
     .email input{
         width: 185px;
@@ -632,8 +632,8 @@ color: #B5B5BE;
         width: 250px;
     }
     .password input{
-        width: 170px;
-    }
+        width: 180px;
+
     .student input{
         width: 230px;
     }

@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500|Roboto:400,500&display=swap");
+html,
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.nav-item input{
+    background: none;
+    border: none;
+    width: 40px;
+    font-size: 14px;
+}
+
+.nav-item button{
+    border-radius: 10px;
+}
+
+.plus img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.nav-item .search img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover{
+    color: #0062FF;
+    border-bottom: 1px solid #0062FF;
+    padding-bottom: 20px;
+}
+.nav-link:focus .nav-link:active{
+    color: #0062FF;
+    border-bottom: #0062FF;
+}
+.nav-item .search{
+    background-color: #F1F1F5;
+    border-radius: 10px;
+    margin-top: 6px;
+    font-size: 12px;
+
+}
+
+
+.nav-item button{
+    font-size: 14px;
+
+}.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #FFC542;
+    background-color: #FFC542;
+}
+
+.custom-switch .custom-control-label::after{
+    background-color: #FFC542;
+}
+
+.custom-control-label::before {
+    border: 1px solid #F1F1F5;
+    background-color: #FAFAFB;
+
+}
+
+.form-control:focus, .form-control:active {
+    box-shadow: none;
+  }
+
+  .custom-control:focus, .custom-control:active{
+      box-shadow: none;
+  }
+
+.btn-submit{
+    background:  #50B5FF;
+    border: none;
+    margin-left: auto;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFB;
+    padding: 15px 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+
+.font-1{
+    font-family: 'Poppins', sans-serif;
+}
+.font-2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    background: url("/assets/img/Bg.svg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    margin-top: -70px;
+    border-bottom-right-radius: 60px;
+    padding-top: 170px;
+
+}
+
+.site-tittle h1{
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 76px;
+    letter-spacing: 0.233333px;
+    
+}
+
+.signup{
+    width: 560px;
+    height: 750px;
+    background: #FFFFFF;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 57px;
+}
+
+.form-tittle h6{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #B5B5BE;
+}
+
+.form-tittle h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #171725;
+    margin-top: 20px;
+}
+
+.switch{
+    justify-content: center;
+    align-items: baseline;
+}
+
+.form-signup{
+    margin-top: 47px;
+}
+
+.form-group{
+    margin-top: 15px;
+}
+    .form-group input{
+        border: none;
+        border-bottom: 1px solid #E2E2EA;
+        border-radius: 0;
+    }
+    .form-group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 16px;
+        letter-spacing: 0.1px;
+        color: #B5B5BE;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .form-group img{
+        border-bottom: 1px solid #E2E2EA;
+        width: 20px;
+
+    }
+
+    .university{
+        align-items: baseline;
+    }
+
+    .email{
+        border-bottom: 1px solid #E2E2EA;
+        align-items: baseline;
+        margin-top: 25px;
+    }
+
+        .email label{
+            font-size: 14px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            
+        }
+        .email input{
+            border-bottom: none;
+        }
+        .email img{
+            border-bottom: none;
+            width: 18px;
+        }
+
+
+    .form-group select{
+        border: none;
+        border-bottom: 1px solid #E2E2EA;
+        border-radius: 0px;
+        color: #B5B5BE;
+        font-size: 16px;
+        font-size: 16px;
+    }
+ .get-started{
+    font-size: 12px;
+    line-height: 14px;
+    color: #92929D;
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+}
+    .get-started a{
+        color: #92929D;
+        border-bottom: 1px solid #92929D;
+    }
+    .get-started a:hover{
+        border-bottom: none;
+    }
+    
+
+

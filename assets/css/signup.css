@@ -34,15 +34,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.nav-link:hover{
-    color: #0062FF;
-    border-bottom: 1px solid #0062FF;
-    padding-bottom: 20px;
-}
-.nav-link:focus .nav-link:active{
-    color: #0062FF;
-    border-bottom: #0062FF;
-}
+
 .nav-item .search{
     background-color: #F1F1F5;
     border-radius: 10px;
